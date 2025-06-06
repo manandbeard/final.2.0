@@ -20,18 +20,18 @@ This guide will help you install and configure the Family Dashboard on a Raspber
 
 ## Automated Installation
 
-Run this single command to automatically install everything (replace `YOUR_GITHUB_USERNAME/family-dashboard` with your actual GitHub repository):
+Run this single command to automatically install everything:
 
 ```bash
-GITHUB_REPO=YOUR_GITHUB_USERNAME/family-dashboard curl -sSL https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/family-dashboard/main/install-pi.sh | bash
+curl -sSL https://raw.githubusercontent.com/manandbeard/final.2.0/main/install-pi.sh | bash
 ```
 
 Or download and run the installation script manually:
 
 ```bash
-wget https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/family-dashboard/main/install-pi.sh
+wget https://raw.githubusercontent.com/manandbeard/final.2.0/main/install-pi.sh
 chmod +x install-pi.sh
-GITHUB_REPO=YOUR_GITHUB_USERNAME/family-dashboard ./install-pi.sh
+./install-pi.sh
 ```
 
 ## Manual Installation Steps
