@@ -100,10 +100,10 @@ fi
 
 mkdir -p "$PROJECT_DIR"
 cd "$PROJECT_DIR"
-
+//$GITHUB_REPO
 # Download project files from GitHub
 print_status "Downloading Family Dashboard files..."
-if [ -z "$GITHUB_REPO" ]; then
+if [ -z "manandbeard/final.2.0" ]; then
     echo "Usage: GITHUB_REPO=username/repo-name $0"
     echo "Or edit this script to set your GitHub repository URL"
     read -p "Enter your GitHub repository (format: username/repo-name): " GITHUB_REPO
