@@ -104,7 +104,7 @@ cd "$PROJECT_DIR"
 # Download project files from GitHub
 print_status "Downloading Family Dashboard files..."
 if [ -z "$GITHUB_REPO" ]; then
-    GITHUB_REPO="manandbeard/final.2.0"
+    GITHUB_REPO="manandbeard/final2"
     print_status "Using default repository: ${GITHUB_REPO}"
 fi
 
