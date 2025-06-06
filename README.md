@@ -17,15 +17,15 @@ A beautiful, responsive family dashboard designed for Raspberry Pi displays. Sho
 
 1. **One-line installation:**
    ```bash
-   GITHUB_REPO=YOUR_GITHUB_USERNAME/family-dashboard curl -sSL https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/family-dashboard/main/install-pi.sh | bash
+   curl -sSL https://raw.githubusercontent.com/manandbeard/final.2.0/main/install-pi.sh | bash
    ```
 
 2. **Manual installation:**
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/family-dashboard.git
-   cd family-dashboard
+   git clone https://github.com/manandbeard/final.2.0.git
+   cd final.2.0
    chmod +x install-pi.sh
-   GITHUB_REPO=YOUR_GITHUB_USERNAME/family-dashboard ./install-pi.sh
+   ./install-pi.sh
    ```
 
 ## What the Installation Does
